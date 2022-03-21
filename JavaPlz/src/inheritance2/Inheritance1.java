@@ -13,11 +13,6 @@ class Diamond extends Triangle{
 	}
 }
 
-class Star extends Triangle{
-	
-	double distance;
-	void move() {System.out.println(distance+"±¤³â ÀÌµ¿ÇÏ¸é µµÂø");}
-}
 public class Inheritance1 {
 
 	public static void main(String[] args) {
@@ -38,4 +33,11 @@ public class Inheritance1 {
 
 	}
 
+}
+
+
+class Star extends Triangle{
+	
+	double distance;
+	void move() {System.out.println(distance+"±¤³â ÀÌµ¿ÇÏ¸é µµÂø");}
 }
