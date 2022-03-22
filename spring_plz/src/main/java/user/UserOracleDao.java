@@ -1,5 +1,8 @@
 package user;
 
+import org.springframework.stereotype.Component;
+
+@Component ("myDao")
 public class UserOracleDao implements UserDao{
 	
 	public void getUser(String id) {
